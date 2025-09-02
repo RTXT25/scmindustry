@@ -1,0 +1,17 @@
+type: Drill
+name: Mineral Extractor
+description: Mine mineral
+health: 150
+size: 2
+
+# Mining stats
+tier: 1
+drillTime: 69
+
+itemCapacity: 10
+
+# Building settings
+category: production
+requirements: [
+  mineral/10
+]

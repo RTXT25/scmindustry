@@ -1,0 +1,34 @@
+type: flying
+name: observer
+controller: player
+coreUnit: true
+health: 400
+speed: 3.75
+drag: 0.04
+accel: 0.09
+flying: true
+engineOffset: 6
+hitSize: 8
+itemCapacity: 30
+mineTier: 2          # lets it mine ores up to tier 2 (copper, lead, etc.)
+buildSpeed: 1.0      # how fast it builds blocks
+mineSpeed: 1.0       # how fast it mines
+allowBuild: true     # ensures it can build
+canBoost: true
+weapons: [
+  {
+    name: core-blaster
+    x: 0
+    y: 2
+    reload: 10
+    bullet: {
+      type: BasicBulletType
+      damage: 8
+      speed: 4
+      lifetime: 60
+      width: 7
+      height: 9
+    }
+    shootSound: pew
+  }
+]

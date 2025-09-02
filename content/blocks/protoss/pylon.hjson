@@ -1,0 +1,12 @@
+type: PowerNode
+name: Pylon
+description: Generates power and distributes it like a power node.
+size: 2
+health: 300
+category: power
+outputsPower: true
+powerProduction: 100
+hasPower: true
+powerProduction: 100
+maxNodes: 100
+laserRange: 13
