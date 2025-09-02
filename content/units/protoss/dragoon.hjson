@@ -1,6 +1,6 @@
 type: tank
 name: Dragoon
-hitSize: 4
+hitSize: 50
 health: 100
 armor: 550
 faceTarget: false

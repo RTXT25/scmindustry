@@ -1,0 +1,22 @@
+idea
+progression
+toss
+nexus
+    drill
+    conveyor
+    assimalator
+    pylon
+    gateway
+        cybernetics
+            dragoon
+            stalker
+            robotic Facility
+                imortal
+                reaver
+                collouses
+            stagate
+                void ray
+                scout
+                feet bacon
+                    carrier
+                    the one that shoots balls

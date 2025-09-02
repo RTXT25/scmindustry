@@ -1,0 +1,10 @@
+type: tank
+name: probe
+hitSize: 12
+health: 100
+armor: 550
+faceTarget: true
+speed: 1
+accel: 0.1
+drag: 0.1
+rotateSpeed: 20
