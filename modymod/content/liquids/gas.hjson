@@ -1,8 +1,0 @@
-type: Liquid
-name: Vespene
-description: A strange custom Gas.
-color: 0e7a00
-flammability: 0
-heatCapacity: 0
-viscosity: 0.6
-explosiveness: 0
