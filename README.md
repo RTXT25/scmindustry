@@ -1,2 +1,2 @@
 # scmindustry
-an attempt to make a starcraft themed misdustry mod
+an attempt to make a starcraft themed mindustry mod
