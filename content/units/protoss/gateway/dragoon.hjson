@@ -1,6 +1,6 @@
-type: tank
+type: legs
 name: Dragoon
-hitSize: 50
+hitSize: 20
 health: 100
 armor: 550
 faceTarget: false
@@ -8,13 +8,24 @@ speed: 1
 accel: 0.1
 drag: 0.1
 rotateSpeed: 0
+legCount: 4
+legLength: 15
+legSpeed: 0.5
+legExtension: 1
+legGroupSize: 1
+legLengthScl: 1
+legForwardScl: 1
+legMoveSpace: 1
+legStraightness: 10
+lockLegBase: true
+legContinuousMove: true
 weapons: [
   {
-    name: photon-cannon
+    name: photon-blaster
     x: 0
     y: 0
     rotate: true
-    rotateSpeed: 100
+    rotateSpeed: 999
     reload: 20
     mirror: false
     bullet: {
@@ -24,6 +35,9 @@ weapons: [
       lifetime: 60
       width: 8
       height: 10
+      homingDelay: 0
     }
   }
 ]
+commandable: true
+alwaysUnlocked: true

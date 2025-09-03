@@ -2,7 +2,7 @@ type: CoreBlock
 name: Nexsus
 description: A custom core that spawns the default player unit.
 health: 4000
-size: 4
+size: 5
 itemCapacity: 1000
 unitCapModifier: 10
 unitType: observer
@@ -12,3 +12,4 @@ requirements: [
 ]
 category: effect
 research: core-shard
+alwaysUnlocked: true

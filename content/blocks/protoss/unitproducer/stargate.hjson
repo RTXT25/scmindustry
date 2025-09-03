@@ -11,17 +11,24 @@ consumes:
 
 plans: [
   {
-    unit: mono
+    unit: tempest
     time: 69
     requirements: [
       mineral/10
     ]
   }
   {
-    unit: dagger
+    unit: scout
     time: 69
     requirements: [
-      mineral/20
+      mineral/10
+    ]
+  }
+  {
+    unit: carrier
+    time: 69
+    requirements: [
+      mineral/10
     ]
   }
 ]

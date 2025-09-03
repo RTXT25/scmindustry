@@ -14,4 +14,4 @@ mineTier: 2          # lets it mine ores up to tier 2 (copper, lead, etc.)
 buildSpeed: 1.0      # how fast it builds blocks
 mineSpeed: 1.0       # how fast it mines
 allowBuild: true     # ensures it can build
-canBoost: true
+canBoost: false

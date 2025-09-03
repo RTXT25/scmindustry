@@ -1,7 +1,7 @@
 name: "SCminmod"
-displayName: "SStarcraft thiung"
+displayName: "Starcraft mod"
 author: RTXT25
-description: "Bbfashbjhcbabfhsbafbhajbf"
+description: "An attempt to make a Starcraft themed Mod very WIP"
 version: "1.0"
 minGameVersion: "150.1"
 dependencies: [ ]

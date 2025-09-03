@@ -1,6 +1,6 @@
-type: tank
-name: Dragoon
-hitSize: 50
+type: flying
+name: Scout
+hitSize: 20
 health: 100
 armor: 550
 faceTarget: false
@@ -27,3 +27,4 @@ weapons: [
     }
   }
 ]
+alwaysUnlocked: true
