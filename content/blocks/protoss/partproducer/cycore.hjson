@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: Cybernetics Core
+description: makes cybernetics.
+health: 220
+size: 3
+consumes:
+  items:
+    lead: mineral
+craftTime: 60
+outputItems: [
+  { item: cyber, amount: 1 }
+]
+requirements: [
+  mineral/20
+]
+category: crafting
+alwaysUnlocked: true

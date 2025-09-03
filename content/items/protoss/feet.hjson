@@ -1,0 +1,7 @@
+type: material
+name: big ship material
+description: from fleet beacon
+hardness: 1
+cost: 2.0
+color: 
+alwaysUnlocked: true

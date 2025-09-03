@@ -1,12 +1,11 @@
 type: CoreBlock
-name: Nexsus
-description: A custom core that spawns the default player unit.
+name: Nexus
+description: Protoss Core.
 health: 4000
 size: 5
 itemCapacity: 1000
 unitCapModifier: 10
 unitType: observer
-# Other options
 requirements: [
   mineral/10
 ]

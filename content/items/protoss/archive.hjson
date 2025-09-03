@@ -1,0 +1,7 @@
+type: material
+name: archive
+description: from templar archives
+hardness: 1
+cost: 2.0
+color: 
+alwaysUnlocked: true

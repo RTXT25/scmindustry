@@ -4,3 +4,4 @@ description: A rare resource
 hardness: 1
 cost: 2.0
 color: 7ae0ffff
+alwaysUnlocked: true
