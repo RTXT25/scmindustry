@@ -1,6 +1,6 @@
 type: tank
-name: Imortal
-description: ground tank walker
+name: Disruptor
+description: Big ball bingus
 hitSize: 50
 health: 100
 armor: 550

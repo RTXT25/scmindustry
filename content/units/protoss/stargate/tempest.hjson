@@ -1,5 +1,6 @@
 type: flying
 name: Tempest
+description: Long Range siege craft.
 hitSize: 50
 health: 100
 armor: 550

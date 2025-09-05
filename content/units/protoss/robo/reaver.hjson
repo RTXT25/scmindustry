@@ -1,6 +1,6 @@
 type: tank
-name: Imortal
-description: ground tank walker
+name: Reaver
+description: Ground siege unit.
 hitSize: 50
 health: 100
 armor: 550

@@ -4,3 +4,4 @@ description: progas
 hardness: 1
 cost: 2.0
 color: 058410ff
+alwaysUnlocked: true

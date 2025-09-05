@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: Fleet beacon 
+description: makes big ship parts.
+health: 220
+size: 3
+consumes:
+  items:
+    lead: mineral
+craftTime: 60
+outputItems: [
+  { item: feet, amount: 1 }
+]
+requirements: [
+  mineral/20
+]
+category: crafting
+alwaysUnlocked: true

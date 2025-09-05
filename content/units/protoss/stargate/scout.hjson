@@ -1,22 +1,43 @@
 type: flying
 name: Scout
-hitSize: 20
+description: Fast hit and run aircraft with good air to air capabilites and mediocre air to gound.
+hitSize: 10
 health: 100
 armor: 550
-faceTarget: false
+faceTarget: true
 speed: 1
 accel: 0.1
 drag: 0.1
 rotateSpeed: 0
 weapons: [
   {
-    name: photon-cannon
-    x: 0
+    name: photon-blasters
+    x: 2
     y: 0
-    rotate: true
-    rotateSpeed: 100
+    rotate: false
     reload: 20
-    mirror: false
+    mirror: true
+    shootAir: true
+    shootGround: false
+    bullet: {
+      type: BasicBulletType
+      damage: 20
+      speed: 5
+      lifetime: 60
+      width: 8
+      height: 10
+      
+    }
+  }
+  {
+    name: proton-torpedo
+    x: 2
+    y: 0
+    rotate: false
+    reload: 20
+    mirror: true
+    shootAir: true
+    shootGround: false
     bullet: {
       type: BasicBulletType
       damage: 20

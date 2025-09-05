@@ -10,3 +10,4 @@ hasPower: true
 powerProduction: 100
 maxNodes: 100
 laserRange: 13
+alwaysUnlocked: true

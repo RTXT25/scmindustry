@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: Templar Archives 
+description: makes what ever an archive makes.
+health: 220
+size: 3
+consumes:
+  items:
+    lead: mineral
+craftTime: 60
+outputItems: [
+  { item: archive, amount: 1 }
+]
+requirements: [
+  mineral/20
+]
+category: crafting
+alwaysUnlocked: true

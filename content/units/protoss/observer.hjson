@@ -1,5 +1,6 @@
 type: flying
 name: observer
+description: looks at things and tells probes to do things
 controller: FlyingAI
 coreUnit: true
 health: 400
@@ -15,3 +16,4 @@ buildSpeed: 1.0      # how fast it builds blocks
 mineSpeed: 1.0       # how fast it mines
 allowBuild: true     # ensures it can build
 canBoost: false
+alwaysUnlocked: true
