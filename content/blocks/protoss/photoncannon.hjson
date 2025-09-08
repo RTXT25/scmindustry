@@ -1,0 +1,28 @@
+type: ItemTurret
+name: Photon Cannon 
+description: poo ton Cannon.
+size: 1
+health: 220
+reload: 20
+range: 120
+rotateSpeed: 5
+shootSound: shoot
+
+# What items can be used as ammo
+ammoTypes: {
+  mineral: {
+    type: BasicBulletType
+    damage: 10
+    speed: 4
+    lifetime: 30
+    width: 5
+    height: 7
+  }
+}
+
+# Build cost
+requirements: [
+  mineral/30
+]
+category: turret
+alwaysUnlocked: true

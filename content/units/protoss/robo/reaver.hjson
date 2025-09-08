@@ -1,14 +1,14 @@
 type: tank
 name: Reaver
 description: Ground siege unit.
-hitSize: 50
+hitSize: 25
 health: 100
 armor: 550
-faceTarget: false
+faceTarget: true
 speed: 1
 accel: 0.1
 drag: 0.1
-rotateSpeed: 0
+rotateSpeed: 40
 weapons: [
   {
     name: scarab-launcher
@@ -17,19 +17,19 @@ weapons: [
     reload: 50
     rotate: true
     rotateSpeed: 0
-    shootCone: 30
+    shootCone: 1
     shootGround: true
     shootAir: false
     bullet: {
       type: MissileBulletType
-      damage: 40
-      speed: 3
+      damage: 100
+      speed: 4
       lifetime: 60
       splashDamage: 20
-      splashDamageRadius: 30
+      splashDamageRadius: 100
       width: 10
       height: 14
-      homingPower: 0.5    # slight homing, good for moving ground targets
+      homingPower: 0.4    # slight homing, good for moving ground targets
       trailColor: ff9933
     }
   }

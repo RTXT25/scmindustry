@@ -1,6 +1,6 @@
 type: flying
-name: Tempest
-description: Long Range siege craft.
+name: Void Ray
+description: lazer.
 hitSize: 50
 health: 100
 armor: 550
@@ -11,22 +11,20 @@ drag: 0.1
 rotateSpeed: 10
 weapons: [
   {
-    name: resonace-coil
+    name: continuous-laser
     x: 0
-    y: 20
+    y: 6
+    reload: 0              # low reload so it feels constant
     rotate: false
-    reload: 200
-    mirror: false
+    shootSound: laser
+    continuous: true        # ✅ makes it use continuous beam behavior
     bullet: {
-      type: BasicBulletType
-      damage: 200
-      speed: 7
-      lifetime: 60
-      width: 20
-      height: 20
-      hitSize: 5
-      homingDelay: 0
-      targetMissiles: false
+      type: ContinuousLaserBulletType
+      damage: 5             # damage per tick (applies continuously)
+      length: 120
+      width: 6
+      lifetime: 2          # beam duration (auto-renews as it fires)
+      colors: [ 3399ffaa, 3399ff, ffffff ]
     }
   }
 ]
