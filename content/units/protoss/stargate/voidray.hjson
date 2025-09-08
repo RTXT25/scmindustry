@@ -1,0 +1,33 @@
+type: flying
+name: Tempest
+description: Long Range siege craft.
+hitSize: 50
+health: 100
+armor: 550
+faceTarget: true
+speed: 1
+accel: 0.1
+drag: 0.1
+rotateSpeed: 10
+weapons: [
+  {
+    name: resonace-coil
+    x: 0
+    y: 20
+    rotate: false
+    reload: 200
+    mirror: false
+    bullet: {
+      type: BasicBulletType
+      damage: 200
+      speed: 7
+      lifetime: 60
+      width: 20
+      height: 20
+      hitSize: 5
+      homingDelay: 0
+      targetMissiles: false
+    }
+  }
+]
+alwaysUnlocked: true

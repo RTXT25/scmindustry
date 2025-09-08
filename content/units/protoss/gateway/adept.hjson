@@ -1,6 +1,5 @@
 type: tank
-name: Imortal
-description: ground tank walker
+name: adept
 hitSize: 50
 health: 100
 armor: 550
@@ -11,7 +10,7 @@ drag: 0.1
 rotateSpeed: 0
 weapons: [
   {
-    name: photon-blasters
+    name: photon-cannon
     x: 0
     y: 0
     rotate: true

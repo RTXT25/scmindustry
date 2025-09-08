@@ -8,15 +8,24 @@ nexus
     pylon
     gateway
         cybernetics
+            zealot
+            sentry - maybe energiser
             dragoon
             stalker
+            adept
+            high templar
+            dark templar
+                merging crystal
+                    archon - dark archon?
             robotic Facility
-                imortal
+                imortal - from dragoon
                 reaver
-                collouses
+                collsus
+                disruptor
             stagate
                 void ray
                 scout
+                pheionx
                 feet bacon
                     carrier
-                    the one that shoots balls
+                    Tempest

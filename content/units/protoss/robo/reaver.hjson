@@ -11,20 +11,26 @@ drag: 0.1
 rotateSpeed: 0
 weapons: [
   {
-    name: photon-cannon
+    name: scarab-launcher
     x: 0
-    y: 0
+    y: 6
+    reload: 50
     rotate: true
-    rotateSpeed: 100
-    reload: 20
-    mirror: false
+    rotateSpeed: 0
+    shootCone: 30
+    shootGround: true
+    shootAir: false
     bullet: {
-      type: BasicBulletType
-      damage: 20
-      speed: 5
+      type: MissileBulletType
+      damage: 40
+      speed: 3
       lifetime: 60
-      width: 8
-      height: 10
+      splashDamage: 20
+      splashDamageRadius: 30
+      width: 10
+      height: 14
+      homingPower: 0.5    # slight homing, good for moving ground targets
+      trailColor: ff9933
     }
   }
 ]
