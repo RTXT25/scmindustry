@@ -6,6 +6,9 @@ nexus
     conveyor
     assimalator
     pylon
+    probe factory
+        probe
+        maybe also mothership core
     gateway
         cybernetics
             zealot
@@ -20,8 +23,9 @@ nexus
             robotic Facility
                 imortal - from dragoon
                 reaver
-                collsus
-                disruptor
+                robo support bay
+                    collsus
+                    disruptor
             stagate
                 void ray
                 scout

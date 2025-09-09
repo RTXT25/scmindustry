@@ -1,0 +1,13 @@
+type: flying
+name: cargo-drone
+description: A small drone that carries items between cargo loaders and unloaders.
+controller: cargoAI
+health: 180
+speed: 2.5
+hitSize: 10
+armor: 0
+itemCapacity: 30
+flying: true
+canBoost: false
+engineOffset: 5
+engineSize: 2

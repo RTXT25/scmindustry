@@ -1,5 +1,6 @@
 type: legs
 name: Dragoon
+description: pew pew unit
 hitSize: 20
 health: 100
 armor: 550
@@ -13,8 +14,6 @@ legLength: 15
 legSpeed: 0.5
 legExtension: 1
 legGroupSize: 1
-legLengthScl: 1
-legForwardScl: 1
 legMoveSpace: 1
 legStraightness: 10
 lockLegBase: true

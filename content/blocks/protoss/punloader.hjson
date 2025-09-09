@@ -1,0 +1,19 @@
+type: UnitCargoUnloadPoint
+name: unit-cargo-unloader
+description: Unloads items from cargo drones and distributes them evenly in all directions.
+size: 1
+health: 200
+hasPower: false
+hasLiquids: false
+hasItems: true
+update: true
+solid: true
+
+unloadSpeed: 5    # items per secondss
+
+requirements: [
+  mineral/10
+]
+category: distribution
+research: unit-cargo-loader
+alwaysUnlocked: true

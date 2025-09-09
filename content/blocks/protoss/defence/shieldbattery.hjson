@@ -1,0 +1,33 @@
+type: PowerTurret
+name: Shield Battery
+description: A turret that heals allied units with a focused beam.
+size: 3
+health: 320
+reload: 20
+range: 140
+rotateSpeed: 4
+shootSound: heal
+
+consumes:
+  power: 2.5   # power per second
+
+ammoTypes: {}  # no ammo, just power
+
+shootType: {
+  type: LaserBulletType
+  damage: -10       # negative = healing
+  healPercent: 5    # % healed per hit
+  length: 140
+  width: 4
+  lifetime: 16
+  colors: [ 66ccffaa, 66ccff, ffffff ]   # teal-blue healing beam
+  heals: true       # ✅ makes it repair allies
+  collidesTeam: true
+}
+
+requirements: [
+  mineral/150
+]
+category: turret
+research: repair-point
+alwaysUnlocked: true

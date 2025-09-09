@@ -1,0 +1,7 @@
+type: material
+name: Robot Part
+description: from robo support bay
+hardness: -1
+cost: 2.0
+color: 
+alwaysUnlocked: true

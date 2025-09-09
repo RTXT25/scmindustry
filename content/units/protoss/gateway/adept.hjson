@@ -1,5 +1,6 @@
 type: tank
 name: adept
+description: ground harras unit
 hitSize: 50
 health: 100
 armor: 550

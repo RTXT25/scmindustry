@@ -1,0 +1,18 @@
+type: UnitCargoLoadPoint
+name: unit-cargo-loader
+description: Loads items into cargo drones, which automatically deliver them to unloaders.
+size: 1
+health: 200
+hasPower: false
+hasLiquids: false
+hasItems: true
+update: true
+solid: true
+
+loadSpeed: 5
+unitType: cargo-drone
+unitCapModifier: 1
+
+requirements: []
+category: distribution
+alwaysUnlocked: true

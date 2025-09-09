@@ -1,5 +1,7 @@
-type: tank
+type: flying
 name: Carrier
+description: Plane that shoots planes
+controller: FlyingAI
 hitSize: 50
 health: 100
 armor: 550
@@ -7,23 +9,23 @@ faceTarget: false
 speed: 1
 accel: 0.1
 drag: 0.1
-rotateSpeed: 0
+rotateSpeed: 20
 weapons: [
   {
-    name: photon-cannon
+    name: flare-launcher
     x: 0
-    y: 0
+    y: 6
+    reload: 60
     rotate: true
-    rotateSpeed: 100
-    reload: 20
-    mirror: false
+    rotateSpeed: 3
+    shootSound: spawn
+
     bullet: {
-      type: BasicBulletType
-      damage: 20
-      speed: 5
-      lifetime: 60
-      width: 8
-      height: 10
+      type: SpawnBulletType
+      unit: quell
+      spawnTime: 300
+      speed: 3
+      lifetime: 300
     }
   }
 ]

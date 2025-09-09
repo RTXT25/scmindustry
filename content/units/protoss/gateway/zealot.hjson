@@ -1,9 +1,10 @@
 type: tank
 name: zealot
-hitSize: 50
+description: melee unit
+hitSize: 5
 health: 100
 armor: 550
-faceTarget: false
+faceTarget: true
 speed: 1
 accel: 0.1
 drag: 0.1
