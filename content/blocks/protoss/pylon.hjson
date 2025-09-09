@@ -10,4 +10,7 @@ hasPower: true
 powerProduction: 100
 maxNodes: 100
 laserRange: 13
+requirements: [
+  mineral/100
+]
 alwaysUnlocked: true

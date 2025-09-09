@@ -1,7 +1,7 @@
 type: tank
 name: adept
 description: ground harras unit
-hitSize: 50
+hitSize: 10
 health: 100
 armor: 550
 faceTarget: false
@@ -11,11 +11,10 @@ drag: 0.1
 rotateSpeed: 0
 weapons: [
   {
-    name: photon-cannon
+    name: energy-glaive
     x: 0
     y: 0
-    rotate: true
-    rotateSpeed: 100
+    rotate: false
     reload: 20
     mirror: false
     bullet: {
