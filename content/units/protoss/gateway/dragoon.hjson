@@ -3,7 +3,7 @@ name: Dragoon
 description: pew pew unit
 hitSize: 20
 health: 200
-armor: 1x
+armor: 1
 faceTarget: false
 speed: 2.25
 accel: 1

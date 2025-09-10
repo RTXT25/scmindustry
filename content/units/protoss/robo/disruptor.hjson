@@ -1,26 +1,26 @@
 type: tank
 name: Disruptor
 description: Big ball bingus
-hitSize: 50
-health: 100
-armor: 550
+hitSize: 10
+health: 200
+armor: 1
 faceTarget: false
-speed: 1
-accel: 0.1
+speed: 3.15
+accel: 1
 drag: 0.1
 rotateSpeed: 0
 weapons: [
   {
-    name: photon-cannon
+    name: purification-nova
     x: 0
     y: 0
     rotate: true
-    rotateSpeed: 100
+    rotateSpeed: 999
     reload: 20
     mirror: false
     bullet: {
       type: BasicBulletType
-      damage: 20
+      damage: 200
       speed: 5
       lifetime: 60
       width: 8

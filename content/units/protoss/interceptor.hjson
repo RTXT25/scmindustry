@@ -1,17 +1,18 @@
-type: legs
-name: colossus
-description: tall pew pew
-hitSize: 20
-health: 100
-armor: 550
-faceTarget: false
-speed: 1
-accel: 0.1
-drag: 0.1
-rotateSpeed: 20
+type: flying
+name: interceptor
+description: pew pew drone from carrier
+controller: FlyingAI
+coreUnit: true
+health: 20
+speed: 3.75
+drag: 0.04
+accel: 0.09
+flying: true
+engineOffset: 6
+hitSize: 5
 weapons: [
   {
-    name: thermal-lance
+    name: pewpewgun
     x: 0
     y: 0
     rotate: false
