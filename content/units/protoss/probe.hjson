@@ -8,7 +8,7 @@ controller: MinerAI
 itemCapacity: 30
 mineTier: 2
 mineSpeed: 1
-mineItems: [ copper ]
+mineItems: [ mineral ]
 itemCapacity: 30
 allowBuild: true
 buildSpeed: 0.7
