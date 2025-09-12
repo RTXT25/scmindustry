@@ -1,0 +1,13 @@
+description: A volatile planet inhabited by unstable suicide drones.
+parent: sun
+generator: solarSystemGenerator
+accessible: true
+visible: true
+alwaysUnlocked: true
+radius: 0.5
+atmosphereColor: ff9933
+atmosphereRadIn: 0.1
+atmosphereRadOut: 0.3
+lightColor: ffa533
+sectorSeed: 12345
+iconColor: ffa533

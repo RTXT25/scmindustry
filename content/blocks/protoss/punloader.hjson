@@ -15,5 +15,4 @@ requirements: [
   mineral/10
 ]
 category: distribution
-research: unit-cargo-loader
 alwaysUnlocked: true

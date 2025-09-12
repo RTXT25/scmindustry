@@ -22,14 +22,15 @@ weapons: [
     shootAir: false
     bullet: {
       type: MissileBulletType
-      damage: 100
+      damage: 0
       speed: 4
       lifetime: 60
       splashDamage: 20
       splashDamageRadius: 100
       width: 10
       height: 14
-      homingPower: 0.4    # slight homing, good for moving ground targets
+      despawnUnit: scarab
+      despawnUnitChance: 1.0
       trailColor: ff9933
     }
   }

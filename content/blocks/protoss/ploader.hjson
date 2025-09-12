@@ -10,9 +10,11 @@ update: true
 solid: true
 
 loadSpeed: 5
-unitType: cargo-drone
+unitType: pcargodrone
 unitCapModifier: 1
 
-requirements: []
+requirements: [
+    mineral/10
+]
 category: distribution
 alwaysUnlocked: true

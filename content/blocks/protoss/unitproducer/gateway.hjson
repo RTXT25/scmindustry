@@ -11,11 +11,32 @@ consumes:
 
 plans: [
   {
+    unit: zealot
+    time: 69
+    requirements: [
+      mineral/10
+    ]
+  },
+  {
     unit: dragoon
     time: 69
     requirements: [
       mineral/10
     ]
-  }
+  },
+  {
+    unit: sentry
+    time: 69
+    requirements: [
+      mineral/10
+    ]
+  },
+  {
+    unit: darktemplar
+    time: 69
+    requirements: [
+      mineral/10
+    ]
+  },
 ]
 alwaysUnlocked: true

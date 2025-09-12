@@ -25,6 +25,8 @@ weapons: [
       lifetime: 60
       width: 8
       height: 10
+      despawnUnit: flare
+      despawnUnitChance: 1.0 # 1.0 = always spawn (0..1)
     }
   }
 ]

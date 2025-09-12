@@ -3,8 +3,9 @@ name: interceptor
 description: pew pew drone from carrier
 controller: FlyingAI
 coreUnit: true
-health: 20
-speed: 3.75
+health: 80
+hitSize: 4
+speed: 10.5
 drag: 0.04
 accel: 0.09
 flying: true

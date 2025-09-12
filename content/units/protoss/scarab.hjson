@@ -1,0 +1,37 @@
+type: flying
+name: scarab
+description: scarab gun from reaver
+controller: suicideAI
+health: 80
+lifetime: 180
+armor: 1
+hitSize: 4
+speed: 10.5
+drag: 0.04
+accel: 100
+flying: false
+engineOffset: 6
+hitSize: 5
+deathExplosionEffect: blastExplosion
+deathSound: explosion
+weapons: [
+  {
+    name: suicide-detonate
+    x: 0
+    y: 0
+    rotate: false
+    reload: 20
+    mirror: false
+
+    bullet: {
+        type: BasicBulletType
+        damage: 0
+        speed: 0.1
+        lifetime: 1
+        splashDamage: 140
+        splashDamageRadius: 40
+        killShooter: true
+    }
+  }
+]
+alwaysUnlocked: true
